@@ -22,6 +22,7 @@ body {
     color:  #000000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     animation: zoomIn 1s ease-in-out;
+    font-family: serif; /* 使用宋体或瘦金体字体 */
 }
 
 @keyframes zoomIn {
@@ -203,8 +204,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translate(-50%);
+    text-align: right;
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     background: rgba(0, 0, 0, 0.5);
@@ -212,6 +213,7 @@ body {
     border-radius: 10px;
     animation: fadeIn 2s ease-in-out;
     font-family: serif; /* 使用宋体或瘦金体字体 */
+	font-size: 0.6em; /* 调整字体大小 */
 }
 
 .top-text {
